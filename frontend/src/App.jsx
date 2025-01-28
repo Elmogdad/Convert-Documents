@@ -9,11 +9,11 @@ function App() {
   const [fileData, setFileData] = useState(null);
 
   return (
-    <div className="min-h-screen bg-gray-100 text-gray-900">
-      <header className="bg-blue-600 text-white p-4 text-center font-bold text-xl">
+    <div className="min-h-screen bg-gray-900 text-gray-950">
+      <header className="bg-cyan-600 text-white p-4 text-center font-bold text-xl">
         Document Converter
       </header>
-      <nav className="flex justify-center space-x-4 p-4 bg-blue-100">
+      <nav className="flex justify-center space-x-4 p-4 bg-cyan-700 text-white">
         <button className="btn" onClick={() => setPage("home")}>Home</button>
         <button className="btn" onClick={() => setPage("edit")}>Edit</button>
         <button className="btn" onClick={() => setPage("downloads")}>Downloads</button>

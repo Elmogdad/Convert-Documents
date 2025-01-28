@@ -7,7 +7,7 @@ function Home({ setFileData }) {
   };
 
   return (
-    <div className="bg-white p-6 rounded-lg shadow">
+    <div className="bg-gray-700 text-white p-6 rounded-lg shadow">
       <h1 className="text-2xl font-bold mb-4">Upload and Convert Files</h1>
       <input
         type="file"
@@ -19,7 +19,7 @@ function Home({ setFileData }) {
         <option value="image-to-text">Image to Text</option>
         <option value="text-to-pdf">Text to PDF</option>
       </select>
-      <button className="bg-blue-600 text-white px-4 py-2 rounded">
+      <button className="bg-pink-500 hover:bg-pink-700 text-white px-4 py-2 rounded">
         Convert
       </button>
     </div>
