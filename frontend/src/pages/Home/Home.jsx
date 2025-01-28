@@ -7,19 +7,19 @@ function Home({ setFileData }) {
   };
 
   return (
-    <div className="bg-gray-700 text-white p-6 rounded-lg shadow">
+    <div className="bg-[#457b9d] text-white w-[70%] mx-auto p-6 rounded-lg shadow">
       <h1 className="text-2xl font-bold mb-4">Upload and Convert Files</h1>
       <input
         type="file"
         className="block mb-4 border p-2"
         onChange={handleFileUpload}
       />
-      <select className="block mb-4 border p-2">
+      <select className="block bg-[#457b9d] mb-4 border p-2">
         <option value="pdf-to-text">PDF to Text</option>
         <option value="image-to-text">Image to Text</option>
         <option value="text-to-pdf">Text to PDF</option>
       </select>
-      <button className="bg-pink-500 hover:bg-pink-700 text-white px-4 py-2 rounded">
+      <button className="bg-[#e63946] mt-10 hover:bg-pink-700 text-white px-4 py-2 rounded shadow-lg">
         Convert
       </button>
     </div>
