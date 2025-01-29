@@ -9,7 +9,7 @@ function Edit({ fileData, setFileData }) {
   };
 
   return (
-    <div className="bg-[#457b9d]  p-6 rounded-lg shadow">
+    <div className="bg-[#0b081c] w-[70%] mx-auto p-6 rounded-lg shadow">
       <h1 className="text-2xl font-bold mb-4">Edit Extracted Text</h1>
       <textarea
         value={text}

@@ -7,7 +7,7 @@ function Download() {
   ];
 
   return (
-    <div className="bg-[#457b9d] p-6 rounded-lg shadow">
+    <div className="bg-[#0b081c] p-6 rounded-lg shadow w-[70%] mx-auto">
       <h1 className="text-2xl font-bold mb-4">Downloads</h1>
       <ul>
         {downloads.map((file) => (
@@ -15,7 +15,7 @@ function Download() {
             <a
               href={file.url}
               download
-              className="text-white-600 underline"
+              className="text-white underline"
             >
               {file.name}
             </a>

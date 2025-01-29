@@ -9,10 +9,10 @@ function App() {
   const [fileData, setFileData] = useState(null);
 
   return (
-    <div className="min-h-screen bg-[#f1faee] text-gray-100">
-      <header className="bg-[#1d3557] text-white p-4 text-center flex justify-between font-bold text-xl">
-        <h1 className="text-3xl text-[#a8dadc]">Mago DOC</h1>
-      <nav className="flex justify-center space-x-4 p-4  text-[#f1faee]">
+    <div className="min-h-screen bg-white text-gray-100">
+      <header className="bg-[#0b081c] text-white p-4 text-center flex justify-between font-bold text-xl">
+        <h1 className="ml-10 text-3xl text-[#ff4c38]">Mago DOC</h1>
+      <nav className="flex justify-center space-x-4 p-4  text-white">
         <button className="btn" onClick={() => setPage("home")}>Home</button>
         <button className="btn" onClick={() => setPage("edit")}>Edit</button>
         <button className="btn" onClick={() => setPage("downloads")}>Downloads</button>
